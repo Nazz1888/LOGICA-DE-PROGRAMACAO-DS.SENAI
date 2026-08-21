@@ -1,0 +1,8 @@
+import os
+os.system("cls")
+
+numeroI = int(input('Digite um número inteiro: '))
+print('Antecessor: ', numeroI - 1)
+print('Sucessor: ', numeroI + 1)
+
+      
