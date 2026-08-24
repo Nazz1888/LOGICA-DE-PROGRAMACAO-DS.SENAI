@@ -1,5 +1,4 @@
 #Limpa o terminal
-
 import os
 os.system("cls")
 
@@ -14,4 +13,4 @@ valor_com_desconto = valor - desconto
 print('\n= EXIBINDO DADOS = ')
 print('Valor com desconto de 10%: ', valor_com_desconto)
 
-print('Se quiser mais é só roubando')
+print('Se quiser mais é só chorando')
