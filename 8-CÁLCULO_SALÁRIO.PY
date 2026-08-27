@@ -14,4 +14,4 @@ quantidades_salarios = salario_informado / salario_minimo
 #Mostrando resultados
 
 print('=EXIBINDO DADOS=')
-print(f'Quantidade de salários: ', {quantidades_salarios})
+print(f'Quantidade de salários: {quantidades_salarios:.2f}')
