@@ -20,7 +20,7 @@ menor = min(primeiro_numero, segundo_numero)
 #    menor = primeiro_numero
 
 
-print(f'/nMedia:  , {media:.2f}')
+print(f'Media:  , {media:.2f}')
 print(f'Soma:  , {soma:.2f}')
 print(f'Produto:  , {produto:.2f}')
 print(f'Maior é:  , {maior}')
