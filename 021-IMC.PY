@@ -5,9 +5,10 @@ os.system('cls')
 peso = float(input('Digite seu peso: '))
 altura = float(input('Digite sua altura: '))
 
-#CALCULO E VISUALIZAÇÃO
+#CALCULO 
 imc = peso /  (altura * 2)
 
+#VISUALIZAÇÃO
 print(f'O seu IMC é: {imc:.1f}')
 
 if imc <18.5:
