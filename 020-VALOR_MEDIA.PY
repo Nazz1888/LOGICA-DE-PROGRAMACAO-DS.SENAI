@@ -12,10 +12,12 @@ media = (nota1 + nota2) / 2
 
 print(f'Sua Media é: {media:.1f}')
 if media >= 9:
-  print('Aprovado!')
+  print('Aprovado! Nota A')
+elif media >=7.5:
+  print('Aprovado! Nota B')
 elif media >=6:
-  print('Aprovado!')
+  print('Aprovado! Nota C')
+elif media >=4:
+  print('Reprovado! Nota D')
 else:
-  print('Reprovado!')
-  
-  
+  print('Reprovado! Nota E')
