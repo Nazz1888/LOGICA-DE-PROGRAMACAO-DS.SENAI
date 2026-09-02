@@ -6,9 +6,11 @@ aluno = input('Digite seu nome: ')
 nota1 = float(input('Digite sua 1º nota: '))
 nota2 = float(input('Digite sua 2º nota: '))
 
-#PROCESSAMENTO E VISUALIZAÇÃO
+#PROCESSAMENTO
 
 media = (nota1 + nota2) / 2
+
+#VISUALIZAÇÃO
 
 print(f'Sua Media é: {media:.1f}')
 if media >= 9:
