@@ -1,11 +1,11 @@
 import os
 os.system('cls')
 
-#PROCESSAMENTO
+#ENTRADA
 peso = float(input('Digite seu peso: '))
 altura = float(input('Digite sua altura: '))
 
-#CALCULO 
+#PROCESSAMENTO
 imc = peso /  (altura * 2)
 
 #VISUALIZAÇÃO
