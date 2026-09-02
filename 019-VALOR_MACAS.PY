@@ -10,9 +10,9 @@ valorA = Qmacas * 1
 valorD = Qmacas * 1.30
 
 if Qmacas >= 12:
-    print(f'\nValor a ser cobrado: R${valorA}')
+    print(f'\nValor a ser cobrado: R${valorA:.2f}')
 else:
-    print(f'\nValor a ser cobrado: R${valorD}')
+    print(f'\nValor a ser cobrado: R${valorD:.2f}')
 
 
 
