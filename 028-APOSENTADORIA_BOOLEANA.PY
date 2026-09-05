@@ -13,6 +13,7 @@ else:
     Aposentadoria = ('Não requerer aposentadoria.')
 
 #SAÍDA
+print('==RESULTADO==')
 print(f'\nMatrícula:  {matricula}')
 print(f'Anos de trabalho:  {anos_trabalho}')
 print(f'Ano de nascimento:  {ano_nascimento}')
