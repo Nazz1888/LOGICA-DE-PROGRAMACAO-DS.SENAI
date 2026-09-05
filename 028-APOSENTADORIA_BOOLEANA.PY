@@ -2,9 +2,9 @@ import os
 os.system('cls')
 
 #SOLICITAÇÃO
-matricula = int(input('Digite o número da sua matrícula: '))
-anos_trabalho = int(input('Digite a quantos anos trabalha na empresa: '))
-ano_nascimento = int(input('Digite o ano em que nasceu: '))
+matricula = int(input('Digite o número da sua matrícula: ')).strip()
+anos_trabalho = int(input('Digite a quantos anos trabalha na empresa: ')).strip()
+ano_nascimento = int(input('Digite o ano em que nasceu: ')).strip()
 
 #PROCESSAMENTO
 if anos_trabalho >=30 or anos_trabalho <= 1961:
