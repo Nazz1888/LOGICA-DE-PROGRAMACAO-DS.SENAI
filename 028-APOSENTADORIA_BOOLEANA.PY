@@ -1,6 +1,10 @@
 import os
 os.system('cls')
 
+#from datetime import date
+#date.today().year, usado para trabalhar com datas, anos nesse caso.
+#print(f'Data: {date.today()}')
+
 #SOLICITAÇÃO
 matricula = int(input('Digite o número da sua matrícula: '))
 anos_trabalho = int(input('Digite a quantos anos trabalha na empresa: '))
